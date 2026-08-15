@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Medicine Mini RAG Course</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace">
+        <header>
+          <p class="eyebrow">Mini RAG Course</p>
+          <h1>Medicine document assistant</h1>
+        </header>
+
+        <form id="ask-form">
+          <label for="question">Ask a course question</label>
+          <textarea id="question" rows="4">What is hypertension?</textarea>
+          <button type="submit">Ask</button>
+        </form>
+
+        <section class="answer">
+          <h2>Answer</h2>
+          <div id="answer">Start by asking about one of the medicine topics.</div>
+        </section>
+
+        <section class="sources">
+          <h2>Sources</h2>
+          <div id="sources"></div>
+        </section>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+
