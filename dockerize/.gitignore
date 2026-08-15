@@ -3,4 +3,5 @@ backend/.venv/
 backend/__pycache__/
 backend/app/__pycache__/
 backend/app/rag_index.json
+backend/chroma_db/
 

@@ -5,6 +5,7 @@ description = "A beginner mini RAG course app using Mistral embeddings."
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.116.1",
+    "chromadb>=0.6.3",
     "uvicorn[standard]>=0.35.0",
     "mistralai>=1.9.3",
     "python-dotenv>=1.1.1",
